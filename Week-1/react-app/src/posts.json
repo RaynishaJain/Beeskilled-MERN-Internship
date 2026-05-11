@@ -1,0 +1,20 @@
+[
+  { 
+    "id": 1, 
+    "title": "Medium Blogging Platform", 
+    "tech": "Hono.js, PostgreSQL", 
+    "description": "RESTful API with JWT auth and 99.9% uptime." 
+  },
+  { 
+    "id": 2, 
+    "title": "PayTM Wallet Clone", 
+    "tech": "Node.js, Express, MongoDB", 
+    "description": "Backend for digital wallets serving 300+ users." 
+  },
+  { 
+    "id": 3, 
+    "title": "Hospital Management System", 
+    "tech": "Flask, MySQL", 
+    "description": "Supported 200+ patient registrations." 
+  }
+]
