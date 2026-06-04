@@ -9,7 +9,7 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/users/register', formData);
+      await axios.post('https://beeskilled-mern-internship.onrender.com/api/users/register', formData);
       alert('Registration successful! Opening sign-in page...');
       navigate('/login');
     } catch (err) {

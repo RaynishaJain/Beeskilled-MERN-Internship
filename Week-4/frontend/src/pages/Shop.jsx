@@ -11,7 +11,7 @@ function Shop() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/products');
+        const res = await axios.get('https://beeskilled-mern-internship.onrender.com/api/products');
         setProducts(res.data);
       } catch (err) {
         console.error('Error fetching product catalog', err);
@@ -27,7 +27,7 @@ function Shop() {
       return;
     }
     try {
-      await axios.post('http://localhost:5000/api/cart/add', 
+      await axios.post('https://beeskilled-mern-internship.onrender.com/api/cart/add', 
         { productId, quantity: 1 },
         { headers: { Authorization: `Bearer ${token}` } }
       );

@@ -16,7 +16,7 @@ function Cart() {
 
     const fetchCart = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/cart', {
+        const res = await axios.get('https://beeskilled-mern-internship.onrender.com/api/cart', {
           headers: { Authorization: `Bearer ${token}` }
         });
         setCart(res.data);
